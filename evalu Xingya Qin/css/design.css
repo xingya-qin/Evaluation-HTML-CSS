@@ -1,0 +1,274 @@
+body{
+	background: black;
+}
+
+
+header{
+	color: white;
+	text-align: center;
+	background: white;
+	height: 150px;
+
+}
+
+.logo{
+	float: left;
+	margin-left: : 30px;
+	height:inherit;
+	margin-top: 50px;
+	width: 30%;
+}
+
+.logo img{
+	width: 100px;
+}
+
+.logo p{
+	color: black;
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.access{
+		float: right;
+		background: #E9ECEB;
+		border:1px solid;
+		display: flex;
+		list-style-type: none;
+		margin-right: 80px;
+}
+
+.access a{
+	 text-decoration-line: none;
+     color: black;
+}
+
+.access li img{
+	width: 30px;
+	margin-right: 50px;
+	color: black;
+}
+
+.menu-nav a{
+	text-transform: uppercase;
+    color: black;
+    font-family: "Gill Sans Extrabold", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-decoration-line: none;
+}
+
+.menu-nav ul{
+	padding: 10px;
+	list-style-type: none;
+	display: inline-block;
+	margin-right: 100px;
+	margin-top: 31px;
+	text-align:right;
+
+}
+
+.menu-nav ul li{
+	float: left;
+	padding: 10px;
+	width: 150px;
+	position: relative;
+}	
+
+
+.menu-nav ul li ul{
+	display: none;
+	margin: 0;
+	padding: 0;
+}
+.menu-nav ul li:hover ul{
+	display: block;
+	padding: 0;
+	position: absolute;
+	margin: 10px -10px;
+}
+
+
+.menu-nav ul li:hover {
+	border-bottom: 2px solid white;
+}
+
+.menu-nav ul li ul:hover li a {
+	color: red;
+}
+
+.menu-nav ul li:hover {
+	border-bottom: 2px solid white;
+}
+
+
+
+/******block de contenu*****/
+.images-head{
+	text-align: center;
+	width: 100%;
+}
+    
+
+.container-block{
+    margin-right: 126px;
+    margin-left: 126px;
+    background: #E9ECEB;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+
+.item{
+	margin: 20px;
+	padding: 20px;
+	border: 1px solid;
+	background: white;
+	height: 300px;
+	width: 300px;
+}
+.item .photo-marque{
+	width: 300px;
+	height: 300px;
+	margin-top: -20px;
+}
+
+.item .photo-marque .text{
+	font-size: 15px;
+	text-align: center;
+
+}
+.item .photo-marque img{
+	width: 100%;
+	
+}
+
+
+
+.item:hover{
+	cursor: pointer;
+	transform:scale(1.2);
+	transition-duration: 2s;
+}
+
+.details .vente{
+	font-weight: 600;
+	font-size: 15px;
+	color: white;
+	background: black;
+	padding: 10px;
+	border-radius: 5px;
+	float: left;
+}
+
+.details .prix ,.promo{
+	padding: 10px;
+	float: right;
+	margin-right: 10px;
+}
+
+.details .promo{
+	color:yellow;
+	font-size: 20px;
+	font-kerning: 60;
+
+}
+
+.promo-1{
+	background: black;
+	color: yellow;
+	font-size: 20px;
+	font-weight: 600;
+	border-radius: 5px;
+}
+
+.photo-marque{
+	
+  	position: absolute;
+  	width: 300px;
+}
+
+.promo-1{
+	margin-right: 0;
+  	position: absolute;
+  	top: 0;
+  	right: 0;
+}
+
+/********block de contenu******/
+
+details{
+	width: 80%;
+	margin: auto;
+	color: black;
+	background: #25272E;
+	text-align: center;
+	padding: 8px;
+
+
+}
+/****** FOOTER***********/
+
+footer{
+	color: white;
+	background: #25272E;
+	width:100%;
+	margin:auto;
+	
+}
+
+.detail{
+	display: flex;
+	width: 50%;
+	margin-left:350px;
+}
+
+.condition p{
+	font-size: 10%;
+
+}
+
+.condition img{
+	width: 60px;
+	height: 60px;
+	margin: 10px;
+	background: white;
+	border-radius: 50%;
+	border: 1px solid;
+	
+} 
+
+.footer-item {
+	margin:30px;
+}
+.footer-item img{
+	width: 40px;
+}
+
+.socials{
+	text-align: center;
+}
+
+.socials img{
+	width: 30px;
+	height: 30px;
+	margin: 40px;
+	background: #25272E;
+}
+
+.socials img:hover{
+	background: #9ED4CD;
+}
+
+h6{
+	text-align: center;
+}
+
+
+
