@@ -1,0 +1,225 @@
+body{
+	margin: 0;
+    background-color: black;
+    position: relative;
+}
+
+.container{
+	background: #F4F7FA;
+	width: 60%;
+	margin: auto;
+}
+header{
+    background: #F4F7FA;
+	display: flex;
+	justify-content: center;
+	position: relative;
+	height: 120px;
+	padding: 15px;
+}
+
+.compte{
+	display: flex;
+    justify-content: space-around;
+    border: 1px solid;
+    height: 35px;
+    width: 25%;
+    background: #DCDCDC;
+    padding: 5px;
+    position: relative;
+    left: 250px;
+}
+
+.compte img{
+	width: 30px;
+	height: 30px;
+    padding: 6px;
+}
+
+.moncompte, .panier{
+	display: flex;
+}
+
+#julien{
+	position: absolute;
+	top: 60px;
+	right: 0;
+}
+#logo{
+    border-left: 4px solid goldenrod;
+    padding:10px 15px;
+}
+
+#logo span{
+    color: goldenrod;
+}
+
+nav{
+	position: relative;
+
+	top: 100px;
+	right: 100px;
+}
+
+header nav a {
+	color: black;
+	text-decoration: none;
+	border-left: 2px solid;
+	padding-left: 8px;
+}
+
+.deconnection{
+	border-right: 2px solid;
+	padding-right: 8px;
+}
+/********************FIN PARTI HEADER **********************************/
+
+
+.header-page-catalogue img{
+	width: 100%;
+	height: 300px;
+}
+
+.bloc-du-haut, .bloc-du-bas{
+	display: flex;
+	justify-content: space-around;
+    margin-top: 30px;
+}
+
+.gant
+{
+    border: 2px solid grey;
+    box-shadow: 0px 0px 20px grey;
+}
+
+section{
+	position: relative;
+}
+.reduction{
+
+    position: absolute;
+    top: 0;
+    right: -10px;
+	box-shadow: 0px 0px 15px grey;
+    font-weight: bold;
+
+    color: goldenrod;
+    background-color: black;
+    border-radius: 10%;
+    padding: 8px;
+}
+
+.description{
+	text-align: center;
+	font-weight: bold;
+	margin-top: -30px;
+}
+
+.prix
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.prix a
+{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 50%;
+    padding-top: 10px;
+    text-align: center;
+
+}
+
+.prix p {
+    font-size: 25px;
+    margin-top: 0;
+    border-bottom: 3px solid #DCDCDC;
+}
+
+.prixavant{
+	text-decoration: line-through;
+}
+
+.prixapres
+{
+    color: goldenrod;
+    font-size: 35px !important;
+    margin-left: 20px;
+}
+
+/*********************FOOTER *********************************/
+footer{
+	background: #4F5356;
+	text-align: center;
+	margin-bottom: -15px;
+}
+.menu {
+    margin: auto;
+    width: 20%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 0 0px 10px 10px;
+    align-items: center;
+    padding: 10px;
+}
+
+.menu span{
+    color: grey;
+    font-size: 3em;
+}
+
+.menu a{
+	text-decoration: none;
+	color: black;
+}
+
+.articlefooter{
+	display: inline-flex;
+    justify-content: space-around;
+    width: 35%;
+    margin: auto;
+    margin-top: 30px;
+    color: white;
+    padding: 15px;
+}
+
+.barre-grise-contenu-et-footer
+{
+    width: 100%;
+    height: 15px;
+    background-color: #4F5356;
+}
+
+.barre-noire-contenu-et-footer
+{
+    width: 100%;
+    height: 15px;
+    background-color: black;
+
+}
+
+.copyright{
+	color: white;
+
+}
+.traitblanc
+{
+    height: 15px;    
+    margin: auto;
+    background: white;
+    width: 60%;
+    margin-top: -15px;
+}
+
+.socials img{
+    width: 30px;
+    height: 30px;
+    margin: 20px;
+}
+/*************************************************************/
